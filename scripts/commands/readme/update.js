@@ -30,7 +30,7 @@ async function createCategoryTable() {
     rows.push({
       name: category ? category.name : 'Undefined',
       channels: item.count,
-      playlist: `<code>https://iptv-org.github.io/iptv/${item.filepath}</code>`
+      playlist: `<code>https://ncirisaif.github.io/iptv/${item.filepath}</code>`
     })
   }
 
@@ -54,7 +54,7 @@ async function createCountryTable() {
     rows.push({
       name: country ? `${country.flag} ${country.name}` : 'Undefined',
       channels: item.count,
-      playlist: `<code>https://iptv-org.github.io/iptv/${item.filepath}</code>`
+      playlist: `<code>https://ncirisaif.github.io/iptv/${item.filepath}</code>`
     })
   }
 
@@ -78,7 +78,7 @@ async function createLanguageTable() {
     rows.push({
       name: language ? language.name : 'Undefined',
       channels: item.count,
-      playlist: `<code>https://iptv-org.github.io/iptv/${item.filepath}</code>`
+      playlist: `<code>https://ncirisaif.github.io/iptv/${item.filepath}</code>`
     })
   }
 
@@ -102,7 +102,7 @@ async function createRegionTable() {
     rows.push({
       name: region ? region.name : 'Undefined',
       channels: item.count,
-      playlist: `<code>https://iptv-org.github.io/iptv/${item.filepath}</code>`
+      playlist: `<code>https://ncirisaif.github.io/iptv/${item.filepath}</code>`
     })
   }
 

@@ -26,8 +26,8 @@ jobs:
         if: steps.files.outputs.any_changed == 'true'
         run: |
           mkdir -p scripts/data
-          curl -L -o scripts/data/blocklist.json https://iptv-org.github.io/api/blocklist.json
-          curl -L -o scripts/data/channels.json https://iptv-org.github.io/api/channels.json
+          curl -L -o scripts/data/blocklist.json https://ncirisaif.github.io/api/blocklist.json
+          curl -L -o scripts/data/channels.json https://ncirisaif.github.io/api/channels.json
       - name: validate
         if: steps.files.outputs.any_changed == 'true'
         run: |

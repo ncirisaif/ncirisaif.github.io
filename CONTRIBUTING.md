@@ -11,15 +11,15 @@ Before submitting your contribution, please make sure to take a moment and read 
 
 ### Request a Channel
 
-To request a channel, create an [issue](https://github.com/iptv-org/iptv/issues/new?labels=channel+request&template=------channel-request.yml&title=Add%3A+) and complete all details requested. Understand that our community of volunteers will try to help you, but if a public link cannot be found, there is little we can do. (**IMPORTANT:** the issue should contain a request for only one channel, otherwise it will be closed immediately)
+To request a channel, create an [issue](https://github.com/ncirisaif/iptv/issues/new?labels=channel+request&template=------channel-request.yml&title=Add%3A+) and complete all details requested. Understand that our community of volunteers will try to help you, but if a public link cannot be found, there is little we can do. (**IMPORTANT:** the issue should contain a request for only one channel, otherwise it will be closed immediately)
 
 ### Report a Broken Stream
 
-To report a broadcast that is not working, create an [issue](https://github.com/iptv-org/iptv/issues/new?labels=broken+stream&template=-----broken-stream.yml&title=Replace%3A+) with a description of the channel. (**IMPORTANT:** an issue should contain a report for only one channel, otherwise it will be closed immediately)
+To report a broadcast that is not working, create an [issue](https://github.com/ncirisaif/iptv/issues/new?labels=broken+stream&template=-----broken-stream.yml&title=Replace%3A+) with a description of the channel. (**IMPORTANT:** an issue should contain a report for only one channel, otherwise it will be closed immediately)
 
 ### Content Removal Request
 
-If you find any content in the repository that you own and you would like us to remove, please create an [issue](https://github.com/iptv-org/iptv/issues/new?assignees=freearhey&labels=removal+request&template=--removal-request.yml&title=Remove%3A+) and provide all necessary information. If the request is granted, the specified content will be removed from the repository within one business day.
+If you find any content in the repository that you own and you would like us to remove, please create an [issue](https://github.com/ncirisaif/iptv/issues/new?assignees=freearhey&labels=removal+request&template=--removal-request.yml&title=Remove%3A+) and provide all necessary information. If the request is granted, the specified content will be removed from the repository within one business day.
 
 ## Pull Request Guidelines
 
@@ -61,7 +61,7 @@ STREAM_URL
 
 | Attribute      | Description                                                                                                                                                                                                                              | Required | Valid values                                                                                        |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------- |
-| `CHANNEL_ID`   | Channel ID.                                                                                                                                                                                                                              | Optional | Full list of supported channels could be found on [iptv-org.github.io](https://iptv-org.github.io/) |
+| `CHANNEL_ID`   | Channel ID.                                                                                                                                                                                                                              | Optional | Full list of supported channels could be found on [ncirisaif.github.io](https://ncirisaif.github.io/) |
 | `CHANNEL_NAME` | Full name of the channel. May contain any characters except: `,`, `(`, `)`, `[`, `]`. It is recommended to use the name listed on [lyngsat](https://www.lyngsat.com/search.html) or [wikipedia](https://www.wikipedia.org/) if possible. | Required | -                                                                                                   |
 | `RESOLUTION`   | Maximum stream resolution.                                                                                                                                                                                                               | Optional | `2160p`, `1080p`, `720p`, `480p`, `360p` etc                                                        |
 | `LABEL`        | Specified in cases where the broadcast for some reason may not be available to some users.                                                                                                                                               | Optional | `Geo-blocked` or `Not 24/7`                                                                         |
